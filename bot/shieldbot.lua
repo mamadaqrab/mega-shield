@@ -251,7 +251,7 @@ function create_config( )
     "sh",
     "serverinfo"
     },
-    sudo_users = {80182995},--Sudo users
+    sudo_users = {196560568},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[MeGa shield v2.9
 An advanced administration bot based on TG-CLI written in Lua
@@ -261,7 +261,7 @@ https://github.com/hafez16/mega-shield
 
 Admins:
 @hafez1116hafez [Developer]
-@amirho3ien911 [Developer]
+@alfroshotak [Developer]
 @Eblis_alone [Manager]
 @Mmd_hei [sponsor]
 
