@@ -6,20 +6,20 @@ local function run(msg, matches)
     text,b = text:gsub('^!+','')
   end
     if not is_sudo(msg) then
-    return 'ADD PLUGINS ONLY BY SUDO😁'
+    return ''
   end
   local name = matches[2]
   local file = io.open("./"..name, "w")
   file:write(text)
   file:flush()
   file:close()
-  return "done😊"
+  return ">پلاگین به سرور افزوده شد !"
  end
  return {
   description = "a Usefull plugin for sudo !",
   usage = "A plugins to add Another plugins to the server",
   patterns = {
-    "^[/#!]plugin (.+) (.*)$"
+    "^[Aa]dplug (.*)$"
   },
   run = run
 }
