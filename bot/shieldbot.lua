@@ -231,6 +231,7 @@ function create_config( )
     "whitelist",
     "msg_checks",
     "plugins",
+    "gitpuller",
     "addplugin",
     "filter",
     "linkpv",
@@ -253,26 +254,15 @@ function create_config( )
     },
     sudo_users = {196560568},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[MeGa shield v2.9
-An advanced administration bot based on TG-CLI written in Lua
-
-Github:
-https://github.com/hafez16/mega-shield
+    about_text = [[TeleNero v1.2
+An advanced administration bot based on TeleSeed
 
 Admins:
-@hafez1116hafez [Developer]
-@alfroshotak [Developer]
-@Eblis_alone [Manager]
-@Mmd_hei [sponsor]
+@SeyedKia [Developer]
+@Alfroshotak [Developer]
 
 Special thanks to
-SEEDTEAM
-Hextor team
-Magic team
-Avira team
-
-Our channels
-@shieldTM [persian]
+SeedTeam
 ]],
     help_text_realm = [[
 Realm Commands:
